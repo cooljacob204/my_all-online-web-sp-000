@@ -21,6 +21,7 @@ describe "#my_all?" do
     my_all?(collection) do |number|
       yielded.push number
     end
+    binding.pry
     expect(yielded).to eq([1,2,3])
   end
 
