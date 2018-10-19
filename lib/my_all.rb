@@ -7,6 +7,7 @@ def my_all?(collection)
     if (yield(collection[i]) == nil || yield(collection[i]) == false)
       is_true? = false
     end
+    i += 1
   end
   return is_true?
 end
