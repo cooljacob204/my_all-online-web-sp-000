@@ -9,5 +9,5 @@ def my_all?(collection)
     end
     i += 1
   end
-  return is_true?
+  return is_true
 end
