@@ -5,7 +5,7 @@ def my_all?(collection)
   i = 0
   while i < collection.size
     yielded = yield(collection[i])
-    if ( == nil || yield(collection[i]) == false)
+    if (yielded == nil || yielded == false)
       is_true = FALSE
     end
     i += 1
