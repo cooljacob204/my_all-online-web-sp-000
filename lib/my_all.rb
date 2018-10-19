@@ -3,7 +3,7 @@ require 'pry'
 def my_all?(collection)
   is_true = TRUE
   i = 0
-  while i < collection.assert_recognizes
+  while i < collection.size
     if (yield(collection[i]) == nil || yield(collection[i]) == false)
       is_true = FALSE
     end
